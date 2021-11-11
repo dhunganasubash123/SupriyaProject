@@ -5,9 +5,23 @@ public class Hello {
 	public static void main(String[] args) {
 		
 		
-		System.out.println("Welcome to the world of Supriya");
-		System.out.println("Hi this is Supriya ");
-
+		int day = 3;
+		switch (day) {
+		case 1:
+			System.out.println("Today is Sunday");
+			break;
+		case 2:
+			System.out.println("Today is Monday");
+			break;
+		case 4:
+			System.out.println("Today is Wednesday");
+			break;
+			default:
+				System.out.println("Today is Off");
+			
+			
+		}
+		
 	}
 
 }
